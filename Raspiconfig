@@ -6,3 +6,10 @@ wget https://archive.raspberrypi.org/debian/pool/main/r/rpi-update/rpi-update_20
 dpkg -i raspi-config_20180406+1_all.deb
 dpkg -i rpi-update_20140705_all.deb
 
+
+sudo apt-get update
+sudo apt-get install lua5.1 alsa-utils triggerhappy curl libcurl3
+wget http://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20160322_all.deb
+wget http://archive.raspberrypi.org/debian/pool/main/r/rpi-update/rpi-update_20140705_all.deb
+dpkg -i raspi-config_20160322_all.deb
+dpkg -i rpi-update_20140705_all.deb
