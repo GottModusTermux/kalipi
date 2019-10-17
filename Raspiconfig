@@ -1,0 +1,8 @@
+apt-get update
+apt install lua5.1 alsa-utils psmisc && apt --fix-broken install
+
+wget https://archive.raspberrypi.org/debian/pool/main/r/raspi-config/raspi-config_20180406+1_all.deb
+wget https://archive.raspberrypi.org/debian/pool/main/r/rpi-update/rpi-update_20140705_all.deb
+dpkg -i raspi-config_20180406+1_all.deb
+dpkg -i rpi-update_20140705_all.deb
+
