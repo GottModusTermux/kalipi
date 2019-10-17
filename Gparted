@@ -1,0 +1,8 @@
+$ sudo apt-get build-dep gparted
+$ sudo apt-get install git gnome-common
+$ git clone git://git.gnome.org/gparted
+$ cd gparted
+$ ./autogen.sh
+$ make
+$ sudo make install
+
